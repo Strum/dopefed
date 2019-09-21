@@ -1,12 +1,15 @@
-#Dopefed VCV Rack Plugin
-	By Strum 2018-19
-	strum@softhome.net
-	https://github.com/Strum
-
-Thanks to Andrew Belt and everyone else who contributed to VCV Rack
+# Dopefed VCV Rack Plugin
 
 More simple But useful modules for VCV Rack by Strum
+2018-19
 
+strum@softhome.net
+
+https://github.com/Strum
+
+Thanks to Andrew Belt and everyone else who has contributed to VCV Rack
+
+##About
 
 This plugin features 3 simple utility modules
 
