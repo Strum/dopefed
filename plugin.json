@@ -1,0 +1,34 @@
+{
+  "slug": "dopefed",
+  "name": "dopefed",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Strum's VCV Modules",
+  "author": "Strum",
+  "authorEmail": "strum@softhome.net",
+  "authorUrl": "https://github.com/Strum",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SwitchedAdder",
+      "name": "SwitchedAdder",
+      "description": "Dual summing mixer with on/off/invert switches",
+      "tags": ["Mixer", "Utility"]
+    },
+    {
+      "slug": "SwitchedMux",
+      "name": "SwitchedMux",
+      "description": "8 to 1 mux with manual selector switch",
+      "tags": ["Switch", "Utility", "Multiplexor"]
+    },
+    {
+      "slug": "SwitchMatrix",
+      "name": "SwitchMatrix",
+      "description": "10 * 10 3 mode switching matrix",
+      "tags": ["Switch", "Utility"]
+    }   
+  ]
+}
