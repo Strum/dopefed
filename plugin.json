@@ -7,9 +7,9 @@
   "author": "Strum",
   "authorEmail": "strum@softhome.net",
   "authorUrl": "https://github.com/Strum",
-  "pluginUrl": "",
-  "manualUrl": "",
-  "sourceUrl": "",
+  "pluginUrl": "https://github.com/Strum/dopefed",
+  "manualUrl": "https://github.com/Strum/dopefed/wiki/Dopefed-Plugin---User-manual",
+  "sourceUrl": "https://github.com/Strum/dopefed",
   "donateUrl": "",
   "modules": [
     {
