@@ -9,7 +9,7 @@ https://github.com/Strum
 
 Thanks to Andrew Belt and everyone else who has contributed to VCV Rack
 
-##About
+## About
 
 This plugin features 3 simple utility modules
 
