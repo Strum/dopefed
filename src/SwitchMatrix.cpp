@@ -76,6 +76,13 @@ struct SwitchMatrix : Module
     
     // button states
 		json_t *button_statesJ = json_array();
+    json_t *mode_statesJ = json_array();
+    for (int i = 0; i < 10; i++)
+    {
+      json_t *mode_stateJ = json_integer(mode[i]);
+      json_array_append_new(mode_statesJ, mode_stateJ);
+    }
+    json_object_set_new(rootJ, "modes", mode_statesJ);
 		for (int i = 0; i < 10; i++)
     {
 			for (int j = 0; j < 10; j++)
@@ -92,7 +99,15 @@ struct SwitchMatrix : Module
   void dataFromJson(json_t *rootJ) override
   {
     // button states
+    json_t *mode_statesJ = json_object_get(rootJ, "modes");
 		json_t *button_statesJ = json_object_get(rootJ, "buttons");
+
+    for (int i = 0; i < 10; i++)
+    {
+      json_t *mode_stateJ = json_array_get(mode_statesJ, i);
+      if (mode_stateJ)
+        mode[i] = json_integer_value(mode_stateJ);
+    }
 		if (button_statesJ)
     {
 			for (int i = 0; i < 10; i++)
