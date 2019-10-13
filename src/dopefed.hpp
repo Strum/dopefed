@@ -18,6 +18,7 @@ extern Plugin *pluginInstance;
 extern Model *modelSwitchedAdder;
 extern Model *modelSwitchedMux;
 extern Model *modelSwitchMatrix;
+extern Model *modelQuantiser2;
 
 //// Gui Components
 
@@ -52,6 +53,22 @@ struct GateOutPort : SvgPort
 	GateOutPort()
 	{
 		setSvg(APP->window->loadSvg(asset::plugin(pluginInstance, "res/components/GateOutPort.svg")));
+	}
+};
+
+struct CVInPort : SvgPort
+{
+	CVInPort()
+	{
+		setSvg(APP->window->loadSvg(asset::plugin(pluginInstance, "res/components/CVInPort.svg")));
+	}
+};
+
+struct CVOutPort : SvgPort
+{
+	CVOutPort()
+	{
+		setSvg(APP->window->loadSvg(asset::plugin(pluginInstance, "res/components/CVOutPort.svg")));
 	}
 };
 

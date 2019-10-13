@@ -18,7 +18,8 @@ void init(rack::Plugin *p)
 	// Add all Models defined throughout the pluginInstance	
 	p->addModel(modelSwitchedAdder);
 	p->addModel(modelSwitchedMux);
-	p->addModel(modelSwitchMatrix);	  
+	p->addModel(modelSwitchMatrix);
+	p->addModel(modelQuantiser2);	  
 
 	// Any other pluginInstance initialization may go here.
 	// As an alternative, consider lazy-loading assets and lookup tables when your module is created to reduce startup times of Rack.

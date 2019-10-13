@@ -3,7 +3,7 @@
   "name": "dopefed",
   "version": "1.0.0",
   "license": "BSD-3-Clause",
-  "brand": "Strum's VCV Modules",
+  "brand": "Strum's VCV Modules - Dopefed",
   "author": "Strum",
   "authorEmail": "strum@softhome.net",
   "authorUrl": "https://github.com/Strum",
@@ -29,6 +29,12 @@
       "name": "SwitchMatrix",
       "description": "10 * 10 3 mode switching matrix",
       "tags": ["Switch", "Utility"]
-    }   
+    },
+    {
+      "slug": "Quantiser2",
+      "name": "Quantiser2",
+      "description": "Polyphonic Quantiser",
+      "tags": ["Quantizer"]
+    }    
   ]
 }
