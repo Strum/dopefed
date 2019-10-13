@@ -68,6 +68,8 @@ struct SwitchedAdder : Module
     }
 
 	void process(const ProcessArgs& args) override;
+
+    
 };
 
 void SwitchedAdder::process(const ProcessArgs& args)
