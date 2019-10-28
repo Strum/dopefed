@@ -26,4 +26,4 @@ https://github.com/Strum/dopefed/wiki/Dopefed-Plugin---User-manual
 Post a message on the repo with any suggestions, improvements or bugs or if you have code and want to contribute it
 
 ## License
-[BSD3]((https://opensource.org/licenses/BSD-3-Clause)
+[BSD3](https://opensource.org/licenses/BSD-3-Clause)
